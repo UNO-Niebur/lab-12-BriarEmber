@@ -1,0 +1,24 @@
+Which list was easiest to sort? Why?
+
+If we aren't counting the already sorted list, which would be the easiest by default 
+as no comparisons beyond the actual length of the list would be necessary, would be the random list.
+The random list will be able to stop sooner than the reversed list as one of the numbers is already in
+the right place, additionally, even if I didn't know the exact placement of the numbers in the random list,
+the random list still has a higher chance of not needing as many comparisons as a list that is directly backwards
+and will require the most amount of comparisons by default.
+
+Which list required the most work?
+
+The list that required the most work to sort is the reversed list as it is guaranteed
+to have to compare each number to everything else in the list and everything before it
+as well to ensure proper sorting has been done.
+
+Why is sorting useful before searching?
+
+Sorting keeps your lists orderly making the search more efficient by reducing 
+the potential number of comparisons needed to find what is being searched for.
+
+When might linear search still be useful?
+
+Linear search is useful for short lists with not too many numbers too go through or
+unsorted numbers as it is just searching through the values and not sorting and then doing the search.
