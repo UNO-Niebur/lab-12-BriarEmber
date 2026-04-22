@@ -20,8 +20,8 @@ def bubbleSort(data):
     # TODO: implement bubble sort
     for i in range(numberlist):
         for list in range(0, numberlist - i - 1):
-            if data[list] < data[list + 1]:
-                data[list], data[list + 1] = data[list], data[list + 1]
+            if data[list] > data[list + 1]:
+                data[list], data[list + 1] = data[list + 1], data[list]
     return data
 
 
